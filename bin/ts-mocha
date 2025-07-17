@@ -32,7 +32,7 @@ process.argv.slice(2).forEach(function (arg, idx, arr) {
 
     case "--posix-exit-codes":
       process.env.POSIX_EXIT_CODES = true;
-      mochaArgs.push(arg); // add when supported by mocha
+      mochaArgs.push(arg);
       break;
 
     default:
