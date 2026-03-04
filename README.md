@@ -69,7 +69,7 @@ By default `ts-mocha` use the `--transpile-only` option of ts-node to make tests
 ts-mocha --type-check -p src/ src/**/*.spec.ts
 ```
 
-`--posix-exit-codes` - exit with non-zero POSIX code if interrupted with fatal signal
+`--posix-exit-codes` - exit with standard POSIX exit codes: 0 for success, 1 for failure (instead of the number of failed tests). Also exits with a non-zero POSIX code if interrupted with a fatal signal.
 
 ### Watch Mode
 
